@@ -1,4 +1,4 @@
-import { AutoForm } from 'uniforms-bootstrap5';
+import { AutoForm } from 'uniforms-mui';
 
 import { bridge as schema } from './schemas/basic';
 
