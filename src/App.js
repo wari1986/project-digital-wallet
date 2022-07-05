@@ -1,8 +1,10 @@
+import { AutoForm } from 'uniforms-bootstrap5';
+
+import { bridge as schema } from './schemas/basic';
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <AutoForm schema={schema} onSubmit={console.log} />
   );
 }
 
